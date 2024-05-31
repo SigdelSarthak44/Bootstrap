@@ -1,0 +1,11 @@
+.mycaurasel img{
+    height: 200px;
+}
+
+.navbar{
+    font-size: 30px;
+}
+
+body{
+    background-image: linear-gradient(yellow, orange, red, aqua);
+}

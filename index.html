@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Title </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navigation Bar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Blogs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Sustainable Developement">Sustainable Developement</a></li>
+                  <li><a class="dropdown-item" href="#global">Global Warming</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#sum">Summary</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mycarousel bg-warning-subtle" >
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="photography.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="bugati.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>    
+      </div>
+      <div class="bg-warning-subtle p-5 about" id="about">
+        <h1>About Me</h1>
+        <div class="d-flex bg-danger-subtle p-5">
+          <p class="fs-4 bg-danger-subtle p-3 rounded-3">
+            Gautama Buddha, originally named Siddhartha Gautama, was born around 563 BCE in Lumbini, present-day Nepal. He was born into a royal family of the Shakya clan and was the son of King Suddhodana and Queen Maya. Siddhartha was raised in opulence and shielded from the sufferings of the outside world, as his father hoped he would become a great king.          
+          </p>
+          <div class="rounded">
+            <img src="buddhist temple.jpg" alt="there aint a photo here" class="w-1000 rounded-3">
+          </div>
+        </div>
+      </div>      
+
+      <div class="bg-success-subtle p-5 gallery" id="gallery">
+        <h1>Gallery (My memories)</h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3 p-2">
+              <img src="bugati.jpg" alt="" role="button" class="w-100">
+            </div>
+            <div class="col-4 p-2">
+              <img src="bugati.jpg" alt="" role="button" class="w-100">
+            </div>         
+             <div class="col-3 p-2">
+              <img src="bugati.jpg" alt="" role="button" class="w-100">
+            </div>
+              <div class="col-2 p-2">
+              <img src="bugati.jpg" alt="" role="button" class="w-100">
+            </div>
+             <div class="col-6 p-2">
+              <img src="bugati.jpg" alt="" role="button" class="w-100">
+             </div>   
+                <div class="col-6 p-2">
+                  <img src="bugati.jpg" alt="" class=" w-100">
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-primary-subtle accordion p-4 " id="accordion">
+        <h1>Blogs</h1>
+        <div class="accordion-item bg-success-subtle">
+          <h2 class="accordion-header" id="Sustainable Developement">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Sustainable Developement
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body ">
+                      
+              <br>    
+              <div class="d-flex">
+                   
+              <p class="fs-4 bg-danger-subtle p-3 rounded-3">
+                Sustainable development is a multifaceted approach designed to balance economic growth, environmental stewardship, and social equity. Its primary goal is to meet current needs without jeopardizing the ability of future generations to fulfill their own. This concept emerged in response to the recognition that unchecked development often leads to environmental degradation, social inequality, and resource depletion.
+<br>
+At its core, sustainable development advocates for efficient resource use, pollution reduction, and waste minimization, promoting practices that preserve natural ecosystems. Economic strategies include investing in renewable energy, supporting green technologies, and fostering innovation that drives sustainable business models. Socially, it emphasizes education, healthcare, and equal opportunities, ensuring that all individuals can contribute to and benefit from economic growth.
+<br>
+Environmental protection is integral, encompassing conservation efforts, biodiversity preservation, and climate change mitigation. Policies and practices are designed to reduce carbon footprints, enhance energy efficiency, and promote sustainable land use.
+<br>
+Ultimately, sustainable development seeks a harmonious integration of economic, social, and environmental objectives. It encourages a global partnership where developed and developing nations collaborate to create resilient societies that thrive without depleting the planet’s resources, ensuring a sustainable and equitable future for all.
+
+              </p>
+              <div class="rounded">
+                <img src="developement.png" alt="There aint a photo for u to see here" class="w-1oo">
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-success-subtle">
+          <h2 class="accordion-header" id="global">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Global Warming
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="d-flex">
+                <p class="bg-danger-subtle">
+                                  
+              Global warming refers to the long-term increase in Earth's average surface temperature due to human activities, particularly the emission of greenhouse gases like carbon dioxide, methane, and nitrous oxide. These emissions primarily result from burning fossil fuels, deforestation, and industrial processes. As greenhouse gases accumulate in the atmosphere, they trap heat from the sun, leading to a warming effect known as the greenhouse effect.
+              <br>
+              This phenomenon has far-reaching consequences. Rising temperatures contribute to more frequent and severe weather events, including heatwaves, hurricanes, and droughts. Polar ice caps and glaciers are melting at unprecedented rates, causing sea levels to rise and threatening coastal communities. Additionally, warming oceans lead to coral bleaching and disrupt marine ecosystems.
+              <br>
+              Global warming also impacts agriculture, water supplies, and biodiversity. Crops may fail due to altered weather patterns, while freshwater resources become scarcer. Many species face extinction as their habitats change or disappear.
+              <br>
+              Mitigating global warming requires concerted global efforts to reduce greenhouse gas emissions. Strategies include transitioning to renewable energy sources, enhancing energy efficiency, reforestation, and adopting sustainable agricultural practices. International agreements like the Paris Agreement aim to unite countries in the fight against climate change, striving to limit global temperature rise and mitigate its adverse effects on the planet.
+                </p>
+              <div class="rounded">
+                <img src="global.jpg" alt="no warming here" class="w-100">
+              </div>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-success-subtle">
+          <h2 class="accordion-header" id="sum">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Summary
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Summary</strong> 
+              <br>
+              Sustainable development and global warming are interconnected concepts essential for the planet's future. Sustainable development aims to balance economic growth, social inclusion, and environmental protection to meet present needs without compromising future generations' ability to meet theirs. It promotes efficient resource use, renewable energy, and equitable opportunities, ensuring a harmonious coexistence of economic, social, and environmental systems.
+<br>
+Global warming, on the other hand, refers to the long-term rise in Earth's average surface temperature due to human activities, primarily the emission of greenhouse gases from burning fossil fuels, deforestation, and industrial processes. This warming leads to severe weather events, melting ice caps, rising sea levels, and disrupted ecosystems.
+<br>
+Addressing global warming is crucial for sustainable development. Mitigation strategies include reducing greenhouse gas emissions, transitioning to renewable energy, enhancing energy efficiency, and reforestation. International efforts like the Paris Agreement aim to limit temperature rise and mitigate global warming's adverse effects, ensuring a sustainable and equitable future for all.
+<br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="bg-danger-subtle p-3">
+        <h1>Contact Us</h1>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Not going to be used for un-ethical works</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="number" class="form-label">Phone no.</label>
+          <input type="number" id="number" class="form-control">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>
