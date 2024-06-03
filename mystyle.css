@@ -7,5 +7,12 @@
 }
 
 body{
-    background-image: linear-gradient(yellow, orange, red, aqua);
+    background-image: linear-gradient(yellow, orange, red, aqua , orange , red , aqua , yellow, orange, red, aqua, yellow, red);
+}
+.demo{
+    width: 500px;
+    height: 1000px;
+}
+.form-control{
+    width: 450px;
 }
